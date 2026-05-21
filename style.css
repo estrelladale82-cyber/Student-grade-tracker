@@ -1,0 +1,84 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+  color: white;
+  background-size: cover;
+  font-size: 10px;
+}
+
+.form-content {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 50px;
+  text-align: center;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-content input {
+  box-sizing: border-box;
+  height: 35px;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  flex-grow: 1;
+  background-color: aliceblue;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-align: center;
+}
+button {
+  background-color: transparent;
+  border: 2px solid #ffa34d;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.above-average {
+  background-color: #5585b5;
+  font-weight: bold;
+}
+
+#error-message {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#student-list {
+  list-style-type: none;
+  padding: 0;
+}
